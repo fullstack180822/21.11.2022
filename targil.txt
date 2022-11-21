@@ -1,0 +1,19 @@
+1. create a table called contacts with:
+    primery key: contact_id integer 
+    first_name: text , cannot be null
+    last_name: text , cannot be null
+    email: text , cannot be null (*bonus: must be unique)
+    phone: text , cannot be null (*bonus: must be unique)
+    **crazy-bonus-- time_of_creation: text , cannot be null --> will contain the time of time_of_creation
+            [you need to add it to your INSERT queries...)]
+2. drop the table
+    check to see if it was deleted
+    now, create it again
+3. insert 3 of your contacts
+    select all rows (all fields)
+4. update the last contact with a new phone number
+    select only the row you updated (with columns: only contact_id, first_name, phone) [use where]
+5. insert 1 malicious contact (hacker)
+    select this row [use where]
+6. quickly delete this row
+7. use select to verify this contact was removed
