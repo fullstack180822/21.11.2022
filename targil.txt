@@ -17,3 +17,5 @@
     select this row [use where]
 6. quickly delete this row
 7. use select to verify this contact was removed
+
+-- install the vscode sqlite extension (by alexcvzz)
