@@ -1,5 +1,5 @@
 1. create a table called contacts with:
-    primery key: contact_id integer 
+    primary key: contact_id integer 
     first_name: text , cannot be null
     last_name: text , cannot be null
     email: text , cannot be null (*bonus: must be unique)
